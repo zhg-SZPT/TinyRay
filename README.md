@@ -1,3 +1,7 @@
+在上传代码时显示上传文件不能超过25MB，于是作者一个一个文件上传。最后发现有以下几个文件上传失败
+datasets文件夹：保存数据集，由于数据集使用的是开源SIXray数据集，使用者可以直接下载该数据集
+weights文件夹中的YOLOv7.pt和YOLOv7_training.pt和.gitignore文件由于文件太大没上传成功，使用者可以从YOLOv7的官方源码中下载这两个权重和.gitignore文件
+
 # Official YOLOv7
 
 Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)
