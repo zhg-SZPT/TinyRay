@@ -1,0 +1,15 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./datasets/train_list.txt  # 1265 images
+val: ./datasets/val_list.txt  # 118 images
+test: ./datasets/val_list.txt
+
+# number of classes
+nc: 5
+
+# class names
+names: [ 'Gun','Knife','Pliers','Scissors','Wrench']
